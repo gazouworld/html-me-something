@@ -1,1 +1,65 @@
-/* Write your CSS here! */
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 8px;
+    background-color: white
+}
+
+.header {
+    width: 10%;
+    height: 100px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #101010;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(7, 70, 87);
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+P {
+    text-align: center
+}
+
+H2 {
+    text-align: center
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#redTitle {
+    text-align: center;
+    text-decoration: underline overline;
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+
+}
+
+#testP.funParagraph {
+    color: green;
+}
